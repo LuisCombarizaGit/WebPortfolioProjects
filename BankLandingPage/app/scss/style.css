@@ -52,7 +52,7 @@ a:hover {
 }
 
 button,
-button {
+.button {
   padding: 1rem 1.875rem;
   background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
   background: linear-gradient(to right, #31d35c, #2bb7da);
@@ -60,7 +60,7 @@ button {
   border-radius: 50px;
   cursor: pointer;
   color: white;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .header nav {
@@ -80,5 +80,11 @@ button {
 
 .header__links a {
   font-size: 0.875rem;
+  color: #9698a6;
+}
+
+.header__cta {
+  font-size: 0.875rem;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
