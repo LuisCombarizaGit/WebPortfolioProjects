@@ -21,6 +21,7 @@
             <li><a href="#"></a>About</li>
             <li class="ctn"><a href="#"></a>Contact</li>
         </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
     </nav>
     <!-- Header-->
     <header>
@@ -31,6 +32,16 @@
             <a href="#" class="ctn"> Learn More</a>
         </div>
     </header>
+
+    <script>
+        const menuBtn = decument.querySelector('.menu-btn');
+        const navlinks = decument.querySelector('.nav-links');
+
+        menuBtn.addEVentListener('click', () => {
+            navlinks.classlist.toggle('mobile-menu');
+        })
+
+    </script>
 
 </body>
 
