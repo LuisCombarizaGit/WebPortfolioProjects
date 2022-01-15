@@ -1,3 +1,7 @@
+<!-- Author: Luis Combariza  -->
+<!-- Date: Jan 14, 2022  -->
+<!-- Description: Simple responsive web project -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,17 +36,42 @@
             <a href="#" class="ctn"> Learn More</a>
         </div>
     </header>
+    <!-- Section One -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img1.png" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa itaque fugit eius temporibus natus!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa itaque fugit eius temporibus natus!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
 
-    <script>
-        const menuBtn = decument.querySelector('.menu-btn');
-        const navlinks = decument.querySelector('.nav-links');
 
-        menuBtn.addEVentListener('click', () => {
-            navlinks.classlist.toggle('mobile-menu');
-        })
+    <!-- Section Two -->
+    <section class="explore">
+        <h1>EXPLORE THE WORLD</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis omnis corporis, possimus repellendus ut
+            necessitatibus error, voluptatum ab odit illum repellat rem qui doloribus at, esse maxime sunt provident
+            repudiandae!
+        </p>
+        <a href="#" class="ctn">Learn More</a>
+    </section>
 
-    </script>
 
+    <!-- JS link-->
+    <script src="./script.js"></script>
 </body>
 
 </html>
