@@ -171,3 +171,14 @@ img {
 .cloud .grid {
   grid-template-columns: 4fr 3fr;
 }
+
+/* Languages */
+
+.languages .flex {
+  flex-wrap: wrap;
+}
+
+.languages .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+}
