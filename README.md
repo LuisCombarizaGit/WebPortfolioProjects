@@ -3,4 +3,4 @@ First work of a series of projects all related with web programing in order to m
 
 
 
-This first project will be creating a sample portfolio website with HTML, CSS, JavaScrip. No libraries or plugins. All hard coded.
+
